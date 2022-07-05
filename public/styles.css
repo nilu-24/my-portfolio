@@ -17,6 +17,8 @@ body {
   padding-top: 10%;
   font-family: 'Montserrat';
   background-color: #D6EFED;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
 }
 
 

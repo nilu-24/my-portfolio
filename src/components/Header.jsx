@@ -1,6 +1,7 @@
 import React from 'react';
 import {AppBar, Grid,Toolbar,Tab,Tabs,useTheme,useMediaQuery} from "@mui/material";
 import Sidebar  from './Sidebar';
+import {Link} from "react-scroll";
 
 function Header(){
 
@@ -20,10 +21,10 @@ background: "linear-gradient(137deg, rgba(0,71,255,1) 0%, rgba(57,65,161,1) 49%,
            <Grid container>
            <Grid item xs={1} md={6} lg={6}></Grid>
            <Grid item xs={10} md={5} lg={5}>
-   <a href="#home" className="navbar-link">Home</a>
+   <Link style={{cursor:"pointer"}} to="home" smooth={true} duration={500} className="navbar-link">Home</Link>
   <a href="/" className="navbar-link" >Resume</a>
-  <a href="#projects" className="navbar-link">Projects</a>
-  <a href="/" className="navbar-link">Contact</a>
+  <Link style={{cursor:"pointer"}} to="projects" className="navbar-link"  smooth={true} duration={500}>Projects</Link>
+  <Link style={{cursor:"pointer"}} to="contact" smooth={true} duration={500} className="navbar-link">Contact</Link>
            </Grid>
 
            <Grid item xs={1} md={1} lg={1}></Grid>

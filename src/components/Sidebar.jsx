@@ -8,6 +8,10 @@ import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import CodeIcon from '@mui/icons-material/Code';
 import { SwipeableDrawer } from '@mui/material';
 
+import {Link} from "react-scroll";
+
+
+
 
 export default function Sidebar(){
 
@@ -26,7 +30,8 @@ export default function Sidebar(){
 
                 <ListItemButton>
                 <ListItemIcon sx={{color:"#3a42a3"}}><HomeIcon/></ListItemIcon>
-                        <ListItemText><a href="#home" style={{textDecoration:"none",color:"black",fontFamily:"Montserrat"}}>Home</a></ListItemText>
+                        <ListItemText><Link onClick={()=>{setOn(false)}}
+                         to="home" smooth={true} duration={500} style={{textDecoration:"none",color:"black",fontFamily:"Montserrat",cursor:"pointer"}}>Home</Link></ListItemText>
                 </ListItemButton>
                 <ListItemButton>
 
@@ -39,12 +44,14 @@ export default function Sidebar(){
 
                 <ListItemButton>
                 <ListItemIcon sx={{color:"#3a42a3"}}><CodeIcon/></ListItemIcon>
-                        <ListItemText><a href="#projects" style={{textDecoration:"none",color:"black",fontFamily:"Montserrat"}}>Projects</a></ListItemText>
+                        <ListItemText><Link onClick={()=>{setOn(false)}}
+                         to="projects" smooth={true} duration={500} style={{textDecoration:"none",color:"black",fontFamily:"Montserrat",cursor:"pointer"}}>Projects</Link></ListItemText>
                 </ListItemButton>
 
                 <ListItemButton>
                 <ListItemIcon sx={{color:"#3a42a3"}}><AlternateEmailIcon/></ListItemIcon>
-                        <ListItemText><a href="#contact" style={{textDecoration:"none",color:"black",fontFamily:"Montserrat"}}>Contact</a></ListItemText>
+                        <ListItemText><Link onClick={()=>{setOn(false)}}
+                         to="contact" smooth={true} duration={500} style={{textDecoration:"none",color:"black",fontFamily:"Montserrat",cursor:"pointer"}}>Contact</Link></ListItemText>
                 </ListItemButton>
 
             </List>
