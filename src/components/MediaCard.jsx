@@ -25,40 +25,34 @@ const linkButtonStyle ={
     cursor: "pointer"
 }
 
-const stack = ["Python", "Firebase", "AWS", "Streamlit", "NLP"]
 
-
-export default function MediaCard() {
+export default function MediaCard(props) {
   return (
       <Card className="card-container" sx={{ maxWidth: 450}}>
         <CardMedia
           component="img"
           height="200"
-          image="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/001/853/096/datas/medium.gif"
-          alt="stitch.ai"
+          image={props.image}
+          alt={props.title}
         />
         <CardContent>
-          <h1>
-            Stitch.ai 
-          </h1>
-          
-          <p> Stitch.ai is a story-based community which helps connect people suffering from similar health conditions.
-          AWS Medical API is used to extract medical entities from stories and are stored in the Firebase database. We implemented
-          our own match-making algorithm using hash maps.
-          </p>
-         
+          <h2>
+            {props.title} 
+          </h2>
+          <p> {props.description}</p>
+        
         </CardContent>
         <CardActions>
           <div>
-            <button style={linkButtonStyle}> <a style={{textDecoration:"none", color:"black"}} href="https://www.google.com/"> GitHub <i class="fa-brands fa-github-alt"></i> </a></button>
-            <button style={linkButtonStyle}> <a style={{textDecoration:"none", color:"black"}} href="https://www.google.com/" >Website <i class="fa-solid fa-globe"></i></a></button>
+            <button style={linkButtonStyle}> <a target="_blank" style={{textDecoration:"none", color:"black"}} href={props.gitLink}> GitHub <i class="fa-brands fa-github-alt"></i> </a></button>
+            <button style={linkButtonStyle}> <a target="_blank" style={{textDecoration:"none", color:"black"}} href={props.webLink} >Website <i class="fa-solid fa-globe"></i></a></button>
           </div>
         </CardActions>
 
         <CardActions>
           <div>
 
-          {stack.map((tech)=>{
+          {props.stack.map((tech)=>{
               return <button style={techButtonStyle}>{tech} </button>
           })}   
           </div>
