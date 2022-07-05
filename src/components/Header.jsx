@@ -20,9 +20,9 @@ background: "linear-gradient(137deg, rgba(0,71,255,1) 0%, rgba(57,65,161,1) 49%,
            <Grid container>
            <Grid item xs={1} md={6} lg={6}></Grid>
            <Grid item xs={10} md={5} lg={5}>
-   <a href="/" className="navbar-link">Home</a>
+   <a href="#home" className="navbar-link">Home</a>
   <a href="/" className="navbar-link" >Resume</a>
-  <a href="/" className="navbar-link">Projects</a>
+  <a href="#projects" className="navbar-link">Projects</a>
   <a href="/" className="navbar-link">Contact</a>
            </Grid>
 

@@ -9,6 +9,7 @@ import flaskLogo from "./logos/flask.png"
 import firebaseLogo from "./logos/firebase.png"
 import javaLogo from "./logos/java.png"
 import awsLogo from "./logos/aws.svg"
+import gitLogo from "./logos/git.png"
 
 
 const techArray = [
@@ -23,6 +24,7 @@ const techArray = [
     {name: "Flask", image: flaskLogo },
     {name: "Firebase", image: firebaseLogo },
     {name: "Amazon Web Services", image: awsLogo },
+    {name: "Git", image: gitLogo}
 ]
 
 export default techArray;

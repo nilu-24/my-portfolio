@@ -152,8 +152,8 @@ color:black;
 
 
 .project-container{
-    margin-top: 100px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 100px ;
+    background-color: #EFEFEF;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 100px ;
 }

@@ -9,8 +9,8 @@ function App(){
    <Header/>
    <Intro />
    <div class="curve c1"></div>
+   <Projects/>
     <Skills/>
-    <Projects/>
     </div>
     );
 }

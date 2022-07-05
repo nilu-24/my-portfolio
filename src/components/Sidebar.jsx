@@ -39,12 +39,12 @@ export default function Sidebar(){
 
                 <ListItemButton>
                 <ListItemIcon sx={{color:"#3a42a3"}}><CodeIcon/></ListItemIcon>
-                        <ListItemText><a href="/" style={{textDecoration:"none",color:"black",fontFamily:"Montserrat"}}>Projects</a></ListItemText>
+                        <ListItemText><a href="#projects" style={{textDecoration:"none",color:"black",fontFamily:"Montserrat"}}>Projects</a></ListItemText>
                 </ListItemButton>
 
                 <ListItemButton>
                 <ListItemIcon sx={{color:"#3a42a3"}}><AlternateEmailIcon/></ListItemIcon>
-                        <ListItemText><a href="/" style={{textDecoration:"none",color:"black",fontFamily:"Montserrat"}}>Contact</a></ListItemText>
+                        <ListItemText><a href="#contact" style={{textDecoration:"none",color:"black",fontFamily:"Montserrat"}}>Contact</a></ListItemText>
                 </ListItemButton>
 
             </List>

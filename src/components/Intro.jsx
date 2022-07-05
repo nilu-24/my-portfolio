@@ -8,7 +8,7 @@ import React from "react";
 export default function Intro(){
 
     return (
-        <div className="intro">
+        <div id="home" className="intro">
 
         <h1 className="title">Hi, I'm <span> Fardin</span>.</h1>
         <h3 className="tag">
