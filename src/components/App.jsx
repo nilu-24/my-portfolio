@@ -12,7 +12,9 @@ function App(){
    <Intro />
    <div class="curve c1"></div>
    <Projects/>
+   <div class="curve c2"></div>
     <Skills/>
+    <div class="curve c3"></div>
     <Contact/>
     <Footer/>
     </div>
