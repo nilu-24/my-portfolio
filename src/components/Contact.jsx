@@ -4,13 +4,13 @@ export default function Contact(){
     return(<div id="contact" className="contact">
 
     <div className="contact-card">
-    <h1>REACH OUT TO ME! <i class="fa-solid fa-paper-plane"></i></h1>
+    <h1 style={{fontSize:"35px"}}>Reach Out To Me! <i class="fa-solid fa-paper-plane"></i></h1>
 
-    <h3 style={{color:"brown"}}>LETS KEEP IN TOUCH AND I'D LOVE TO HEAR YOUR IDEAS.</h3>
+    <h3 style={{color:"brown",fontSize:"25px"}}>Let's keep in touch and I'd love to hear about your ideas.</h3>
 
-    <a class="contact-email" target="_blank" href="mailto:fardin.abdullah@mail.mcgill.ca"><i class="fa-solid fa-envelope"></i>fardin.abdullah@mail.mcgill.ca</a>
-    <p className="uni"><i style={{color:"red"}} class="fa-solid fa-building-columns"></i> McGill University</p>
-    <p className="uni"> <i style={{color:"green"}} class="fa-solid fa-location-dot"></i> Montréal, Quebec, Canada</p>
+    <a style={{fontSize:"18px"}} className="contact-email" target="_blank" href="mailto:fardin.abdullah@mail.mcgill.ca"><i class="fa-solid fa-envelope"></i>Email Me</a>
+    <p className="uni" style={{fontSize:"18px"}}><i style={{color:"red"}} class="fa-solid fa-building-columns"></i> McGill University</p>
+    <p style={{fontSize:"18px"}} className="uni"> <i style={{color:"green"}} class="fa-solid fa-location-dot"></i> Montréal, Quebec, Canada</p>
     
 
 
