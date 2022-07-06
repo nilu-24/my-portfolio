@@ -15,7 +15,7 @@ export default function Projects(){
         <i class="fa-solid fa-laptop-code code-icon"/>
         <h1 className="section-title">Projects</h1>  
 
-        <h2 style={{fontFamily:"Montserrat"}}>Personal Projects</h2> 
+        <h2 style={{fontFamily:"Montserrat",color:"#3a42a3"}}>Personal Projects</h2> 
 
         <h3 style={{fontFamily:"Montserrat"}}>I love creating web applications and incorporating AI into them. Here are some of the
         projects I've made:</h3>
@@ -57,7 +57,7 @@ export default function Projects(){
 
         </Grid>
         
-        <h2 style={{fontFamily:"Montserrat"}}>Experience</h2>
+        <h2 style={{fontFamily:"Montserrat",color:"#3a42a3"}}>Experience <i class="fa-solid fa-briefcase"></i></h2>
 
         <h3 style={{fontFamily:"Montserrat"}}> My work experiences range from being a TA for my favorite
         Linear Algebra course to being a Software Engineer Intern at an eCommerce fashion company to doing AI Research and more...</h3>
@@ -107,9 +107,6 @@ export default function Projects(){
              stack={["AI Research","Python","Music","Deep Learning"]}
             />
             </Grid>
-
-
-
 
         </Grid>
 

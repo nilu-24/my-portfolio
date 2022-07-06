@@ -3,6 +3,7 @@ import Header from './Header';
 import Intro from './Intro';
 import Skills from './Skills';
 import Projects from './Projects';
+import Contact from './Contact';
 
 function App(){
    return( <div>
@@ -11,6 +12,7 @@ function App(){
    <div class="curve c1"></div>
    <Projects/>
     <Skills/>
+    <Contact/>
     </div>
     );
 }

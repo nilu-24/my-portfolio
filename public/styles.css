@@ -9,6 +9,7 @@ body {
     padding-left: 10%;
     padding-right: 10%;
     background-color: #EFEFEF;
+    padding-bottom: 100px;
 }
 
 .intro{
@@ -158,4 +159,89 @@ color:black;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 100px ;
+}
+
+.contact{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 100px ;
+}
+
+.contact-card{
+    background-color: #F7ECDE;
+    -webkit-filter: drop-shadow(2px 2px 2px black );
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 50px;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    font-family: 'Montserrat';
+}
+
+.contact-card:hover{
+    -webkit-filter: drop-shadow(2px 2px 2px #3a42a3 );
+
+}
+
+
+.contact-email{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.fa-envelope{
+    color: black;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.contact-button{
+    color: white;
+    background-color: #3a42a3;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    padding: 10px;
+    border: 0px;
+    border-radius: 15px;
+    display: block;
+    margin-bottom: 20px;
+    
+}
+
+.contact-links{
+    margin-top: 30px;
+    align-items: center;
+}
+
+
+.contact-social{
+    padding: 10px;
+    margin-right: 15px;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: white;
+    
+}
+
+.brand{
+    font-size: 30px;
+}
+
+.uni{
+    font-size: 15px;
+}
+
+.fa-instagram{      
+    background: linear-gradient(to bottom, #d62976 10%,#4f5bd5 70%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+   -webkit-text-fill-color:transparent;
 }
