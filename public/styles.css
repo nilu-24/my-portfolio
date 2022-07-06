@@ -245,3 +245,10 @@ color:black;
     background-clip: text;
    -webkit-text-fill-color:transparent;
 }
+
+.footer{
+    text-align: center;
+    color: white;
+    padding: 1px;
+    background-color: #3a42a3;
+}

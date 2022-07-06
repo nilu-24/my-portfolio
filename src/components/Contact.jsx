@@ -9,7 +9,7 @@ export default function Contact(){
     <h3 style={{color:"grey"}}>LETS KEEP IN TOUCH AND I'D LOVE TO HEAR YOUR IDEAS. ❤️</h3>
 
     <button class="contact-button">Contact Me</button>
-    <a class="contact-email" href="mailto:fardin.abdullah@mail.mcgill.ca"><i class="fa-solid fa-envelope"></i>fardin.abdullah@mail.mcgill.ca</a>
+    <a class="contact-email" target="_blank" href="mailto:fardin.abdullah@mail.mcgill.ca"><i class="fa-solid fa-envelope"></i>fardin.abdullah@mail.mcgill.ca</a>
     <p className="uni"><i style={{color:"red"}} class="fa-solid fa-building-columns"></i> McGill University</p>
     <p className="uni"> <i style={{color:"green"}} class="fa-solid fa-location-dot"></i> Montréal, Quebec, Canada</p>
     
