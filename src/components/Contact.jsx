@@ -6,7 +6,7 @@ export default function Contact(){
     <div className="contact-card">
     <h1>REACH OUT TO ME! <i class="fa-solid fa-paper-plane"></i></h1>
 
-    <h3 style={{color:"brown"}}>LETS KEEP IN TOUCH AND I'D LOVE TO HEAR YOUR IDEAS. ❤️</h3>
+    <h3 style={{color:"brown"}}>LETS KEEP IN TOUCH AND I'D LOVE TO HEAR YOUR IDEAS.</h3>
 
     <a class="contact-email" target="_blank" href="mailto:fardin.abdullah@mail.mcgill.ca"><i class="fa-solid fa-envelope"></i>fardin.abdullah@mail.mcgill.ca</a>
     <p className="uni"><i style={{color:"red"}} class="fa-solid fa-building-columns"></i> McGill University</p>

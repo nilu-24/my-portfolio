@@ -175,7 +175,7 @@ color:black;
 
 .contact-card{
     background-color: #f5e2be;
-    -webkit-filter: drop-shadow(2px 2px 2px black );
+    -webkit-filter: drop-shadow(5px 5px 5px grey );
     border-radius: 20px;
     padding-left: 25px;
     padding-right: 25px;
@@ -185,7 +185,7 @@ color:black;
 }
 
 .contact-card:hover{
-    -webkit-filter: drop-shadow(2px 2px 2px #3a42a3 );
+    -webkit-filter: drop-shadow(5px 5px 5px brown );
 
 }
 
