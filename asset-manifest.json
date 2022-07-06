@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/my-portfolio/static/js/main.8768d652.js",
+    "static/media/coronanet.png": "/my-portfolio/static/media/coronanet.b1ae103a3afd8a065f8a.png",
+    "static/media/flask.png": "/my-portfolio/static/media/flask.a513ea1d978a3bef2c16.png",
+    "static/media/postgres.png": "/my-portfolio/static/media/postgres.52d31cc1fd8306d5ff52.png",
+    "static/media/python.png": "/my-portfolio/static/media/python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/mongodb.png": "/my-portfolio/static/media/mongodb.7e5b739c354145fa00c5.png",
+    "static/media/react.png": "/my-portfolio/static/media/react.f3e576ba08e6be927148.png",
+    "static/media/js.png": "/my-portfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/aws.svg": "/my-portfolio/static/media/aws.cc38dbe9487d55943d42132de41bbf53.svg",
+    "index.html": "/my-portfolio/index.html",
+    "main.8768d652.js.map": "/my-portfolio/static/js/main.8768d652.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.8768d652.js"
+  ]
+}
