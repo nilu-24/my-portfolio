@@ -39,18 +39,18 @@ export default function MediaCard(props) {
           <h2>
             {props.title} 
           </h2>
-          <p> {props.description}</p>
+          <p style={{textAlign:"left"}}> {props.description}</p>
         
         </CardContent>
         <CardActions>
-          <div>
+          <div style={{margin:"auto"}}>
             <button style={linkButtonStyle}> <a target="_blank" style={{textDecoration:"none", color:"black"}} href={props.gitLink}> GitHub <i class="fa-brands fa-github-alt"></i> </a></button>
             <button style={linkButtonStyle}> <a target="_blank" style={{textDecoration:"none", color:"black"}} href={props.webLink} >Website <i class="fa-solid fa-globe"></i></a></button>
           </div>
         </CardActions>
 
         <CardActions>
-          <div>
+          <div style={{margin:"auto"}}>
 
           {props.stack.map((tech)=>{
               return <button style={techButtonStyle}>{tech} </button>

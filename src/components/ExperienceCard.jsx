@@ -33,13 +33,13 @@ export default function ExperienceCard(props) {
           <h4>{props.date}</h4>
           
           {props.description.map((point)=>{
-             return <p>{point}</p>
+             return <p style={{textAlign:"left"}}>{point}</p>
           })}
           
         </CardContent>
 
         <CardActions>
-          <div>
+          <div style={{margin:"auto"}}>
           {props.stack.map((tech)=>{
               return <button style={techButtonStyle}>{tech}</button>
           })}   
