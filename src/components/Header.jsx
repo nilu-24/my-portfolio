@@ -23,7 +23,7 @@ background: "linear-gradient(137deg, rgba(0,71,255,1) 0%, rgba(57,65,161,1) 49%,
            <Grid item xs={1} md={6} lg={6}></Grid>
            <Grid item xs={10} md={5} lg={5}>
    <Link style={{cursor:"pointer"}} to="home" smooth={true} duration={500} className="navbar-link">Home</Link>
-  <a target="_blank" href="https://nilavro-resume.s3.ca-central-1.amazonaws.com/Fardin+Resume+.pdf" className="navbar-link" >Resume</a>
+  <a target="_blank" href="https://nilavro-resume.s3.ca-central-1.amazonaws.com/Fardin+Resume+SWE.pdf" className="navbar-link" >Resume</a>
   <Link style={{cursor:"pointer"}} to="projects" className="navbar-link"  smooth={true} duration={500}>Projects</Link>
   <Link style={{cursor:"pointer"}} to="contact" smooth={true} duration={500} className="navbar-link">Contact</Link>
            </Grid>

@@ -38,7 +38,7 @@ export default function Sidebar(){
 
                 <ListItemIcon sx={{color:"#3a42a3"}}>  <ArticleIcon/> </ListItemIcon>
                         <ListItemText>
-                            <a target="_blank" href="https://nilavro-resume.s3.ca-central-1.amazonaws.com/Fardin+Resume+.pdf" style={{textDecoration:"none",color:"black",fontFamily:"Montserrat"}}>Resume</a>
+                            <a target="_blank" href="https://nilavro-resume.s3.ca-central-1.amazonaws.com/Fardin+Resume+SWE.pdf" style={{textDecoration:"none",color:"black",fontFamily:"Montserrat"}}>Resume</a>
                             </ListItemText>
                 </ListItemButton>
 

@@ -26,11 +26,11 @@ export default function ExperienceCard(props) {
           alt={props.title}
         />
         <CardContent>
-          <h2>
+          <h2 style={{textAlign:"left"}}>
             {props.title} 
           </h2>
-          <h3>{props.company}</h3>
-          <h4>{props.date}</h4>
+          <h3 style={{textAlign:"left"}}>{props.company}</h3>
+          <h4 style={{textAlign:"left"}}>{props.date}</h4>
           
           {props.description.map((point)=>{
              return <p style={{textAlign:"left"}}>{point}</p>

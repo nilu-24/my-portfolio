@@ -36,7 +36,7 @@ export default function MediaCard(props) {
           alt={props.title}
         />
         <CardContent>
-          <h2>
+          <h2 style={{textAlign:"left"}}>
             {props.title} 
           </h2>
           <p style={{textAlign:"left"}}> {props.description}</p>
